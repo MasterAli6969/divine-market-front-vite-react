@@ -1,4 +1,7 @@
 .div {
+  > h1 {
+    margin-bottom: 3rem;
+  }
   > div {
     display: flex;
     justify-content: space-between;
@@ -11,5 +14,13 @@
     background-color: #e8e8e8;
     padding: 1rem;
     margin-right: 1rem;
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 0.2s ease;
+    }
+  }
+  .active {
+    background: linear-gradient(to right, #4f42ad, #138ce3);
+    color: white;
   }
 }

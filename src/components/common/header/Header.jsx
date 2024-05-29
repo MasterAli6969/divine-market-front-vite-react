@@ -1,16 +1,21 @@
 import DotaIcon from "../../../assets/icons/DotaIcon.svg";
+import SteamIcon from "../../../assets/icons/SteamIcon.svg";
+import CartIcon from "../../../assets/icons-svg-code/CartIcon";
 import classNames from "classnames";
 import styles from "./header.module.scss";
 
 function Header() {
   return (
     <nav
-      className={`navbar navbar-expand-lg mx-4 mt-2 mb-3  ${styles.custom_background}`}
+      className={`navbar navbar-expand-lg px-5 py-2 mx-4 mt-2   ${styles.custom_background}`}
     >
       <div className="container-fluid ">
         <div>
-          <a className="navbar-brand text-white" href="#">
-            Navbar
+          <a
+            className={classNames("navbar-brand text-white", styles.logo)}
+            href="/"
+          >
+            <h2>Divine Market</h2>
           </a>
         </div>
         <div className={classNames("dropdown", styles.dropdown_button)}>
@@ -49,7 +54,7 @@ function Header() {
               <a
                 className="nav-link active text-white"
                 aria-current="page"
-                href="#"
+                href="/catalog"
               >
                 Купить предметы
               </a>
@@ -60,22 +65,22 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#">
+              <a className="nav-link text-white" href="/advantages">
                 Гарантии
               </a>
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
+          <div className={styles.used_cart_div}>
+            <button>
+              <CartIcon calor={"#fff"} />
             </button>
-          </form>
+            <a href="/account">
+              <button>
+                <img src={SteamIcon} />
+                <p>Войти через Steam</p>
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </nav>

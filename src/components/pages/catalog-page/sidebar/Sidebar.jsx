@@ -11,7 +11,9 @@ function Sidebar({ dropdawnData }) {
             <img src={FilterIcon} />
             <h4>Фильтр</h4>
           </div>
-          <CustomDropdownList dropdawnData={dropdawnData} />
+          <div className={styles.subdiv_dropdown}>
+            <CustomDropdownList dropdawnData={dropdawnData} />
+          </div>
         </div>
       </div>
     </>

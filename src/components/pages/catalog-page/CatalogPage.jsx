@@ -4,9 +4,12 @@ import Catalog from "./catalog/Catalog";
 import { headerDropdawnData, dropdawnData } from "./data";
 function CatalogPage() {
   return (
-    <div className="row p-0">
+    <div className="row p-0 m-0">
       <Sidebar dropdawnData={dropdawnData} />
-      <div className="col-md-10 p-0">
+      <div
+        style={{ borderLeft: "1px solid #ececec" }}
+        className="col-md-10 p-0 "
+      >
         <CatalogHeader headerDropdawnData={headerDropdawnData} />
         <Catalog />
       </div>

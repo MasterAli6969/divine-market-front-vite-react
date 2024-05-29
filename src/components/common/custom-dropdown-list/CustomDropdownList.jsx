@@ -4,7 +4,7 @@ import styles from "./custom_dropdown_list.module.scss";
 function CustomDropdownList({ dropdawnData, view }) {
   return (
     <>
-      <div className="col-md-10 p-0 ">
+      <div>
         <div className={styles.div}>
           <div
             className={classNames(styles.subdiv_filters, {

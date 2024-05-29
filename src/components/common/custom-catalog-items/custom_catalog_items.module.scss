@@ -23,6 +23,7 @@
       }
     }
     .subdiv_foot {
+      height: 60px;
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -36,6 +37,9 @@
           font-weight: bold;
         }
       }
+      > div:last-child {
+        display: none;
+      }
     }
     .subdiv_sale {
       position: absolute;
@@ -48,6 +52,7 @@
       justify-content: space-between;
       background-color: #504e58;
       padding: 0 1.4rem;
+      transition: bottom 0.3s;
       > div:first-child {
         > div {
           display: flex;
@@ -63,13 +68,19 @@
         }
       }
     }
-    // .subdiv_foot:hover,
-    .subdiv_sale:hover {
+    &:hover .subdiv_sale {
       bottom: 55px;
+      > div:last-child {
+        display: none;
+      }
+    }
+    &:hover .subdiv_foot {
+      > div:last-child {
+        display: block;
+      }
     }
   }
 }
-
 .div_center {
   justify-content: center;
 }

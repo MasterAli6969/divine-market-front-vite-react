@@ -36,7 +36,9 @@ function Catalog() {
           </ul>
         </div>
       </div>
-      <CustomCatalogItems catalogData={catalogData} />
+      <div style={{ paddingLeft: "1.8rem" }}>
+        <CustomCatalogItems catalogData={catalogData} />
+      </div>
     </div>
   );
 }

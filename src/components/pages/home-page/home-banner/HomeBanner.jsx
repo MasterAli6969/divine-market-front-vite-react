@@ -29,27 +29,15 @@ function HomeBanner() {
                 aria-label="Slide 3"
               ></button>
             </div>
-            <div className="carousel-inner">
+            <div style={{ paddingLeft: "1.5rem" }} className="carousel-inner">
               <div className="carousel-item active">
-                <img
-                  src={HomeBannerImage}
-                  className="d-block w-100"
-                  alt="..."
-                />
+                <img src={HomeBannerImage} className="d-block w-100" />
               </div>
               <div className="carousel-item">
-                <img
-                  src={HomeBannerImage}
-                  className="d-block w-100"
-                  alt="..."
-                />
+                <img src={HomeBannerImage} className="d-block w-100" />
               </div>
               <div className="carousel-item">
-                <img
-                  src={HomeBannerImage}
-                  className="d-block w-100"
-                  alt="..."
-                />
+                <img src={HomeBannerImage} className="d-block w-100" />
               </div>
             </div>
             <button

@@ -1,4 +1,3 @@
-import classNames from "classnames";
 import styles from "./acc_progress_bar.module.scss";
 
 function AccProgressBar() {
@@ -21,18 +20,18 @@ function AccProgressBar() {
           aria-valuemin="0"
           aria-valuemax="100"
         >
-          <div
-            className={classNames(
-              "progress-bar overflow-visible",
-              styles.progress_div
-            )}
-            style={{ width: "100%" }}
-          >
+          <div style={{ width: "100%" }}>
             <div className={styles.progress_boll}>
               <div className={styles.step_one} />
               <div className={styles.step_two} />
               <div className={styles.step_three} />
               <div className={styles.step_four} />
+              <div
+                className={styles.progress_div}
+                style={{
+                  backgroundColor: "red",
+                }}
+              ></div>
             </div>
           </div>
         </div>

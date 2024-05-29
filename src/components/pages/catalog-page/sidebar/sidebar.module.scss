@@ -1,18 +1,14 @@
 .div {
   color: #353044;
   .subdiv_title {
+    height: 4rem;
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    padding-left: 4rem;
   }
-  .subdiv_filters {
-    width: 100%;
-    .bropbutton {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 2rem;
-    }
+  .subdiv_dropdown {
+    padding-left: 4rem;
   }
 }

@@ -1,11 +1,17 @@
+import { useState } from "react";
+
 import CustomCartButton from "../custom-cart-button/CustomCartButton";
 import classNames from "classnames";
 import styles from "./custom_catalog_items.module.scss";
 
 function CustomCatalogItems({ catalogData, justifyContent }) {
+  const [hovered, setHovered] = useState(false);
+
   return (
     <>
       <div
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
         className={classNames(styles.div, {
           [styles.div_center]: justifyContent === "center",
         })}
@@ -29,7 +35,10 @@ function CustomCatalogItems({ catalogData, justifyContent }) {
                     <p>{item.name}</p>
                   </div>
                   <div>
-                    <CustomCartButton propsBackground={"gradient"} />
+                    <CustomCartButton
+                      hovered={hovered}
+                      propsBackground={"gradient"}
+                    />
                   </div>
                 </div>
                 <div className={styles.subdiv_sale}>
