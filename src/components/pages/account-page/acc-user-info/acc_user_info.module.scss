@@ -1,0 +1,50 @@
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #e8e8e8;
+  color: #353044;
+  border-radius: 10px;
+  padding: 2rem;
+  .subdiv_avatar {
+    > div {
+      width: 5.25rem;
+      height: 5.25rem;
+      background-color: #909090;
+      border-radius: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+  .subdiv_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .subdiv_info_user_acc_data {
+      > p {
+        margin-bottom: 1rem;
+      }
+    }
+    .subdiv_info_user_ballance_data {
+      > div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+      }
+      > .subdiv_info_user_ballance_data_subdiv2 {
+        > h4 {
+          margin-bottom: 1rem;
+        }
+      }
+      > button {
+        background: linear-gradient(to right, #4f42ad, #138ce3);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 0.75rem 2.5rem;
+      }
+    }
+  }
+}

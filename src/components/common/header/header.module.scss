@@ -1,0 +1,29 @@
+.custom_background {
+  background-color: #353044;
+  border-radius: 20px;
+}
+
+.header_nav_menu_links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown_button {
+  > a {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > h4 {
+      margin-top: 0.1rem;
+    }
+  }
+  > ul {
+    > li {
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

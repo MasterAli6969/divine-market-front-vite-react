@@ -1,0 +1,18 @@
+.div {
+  color: #353044;
+  .subdiv_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .subdiv_filters {
+    width: 100%;
+    .bropbutton {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.div {
+  .subdiv_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    > h1 {
+      text-transform: uppercase;
+    }
+  }
+  .carousel_div {
+    padding: 0 2rem;
+  }
+  .prev_button {
+    justify-content: flex-start;
+  }
+  .next_button {
+    justify-content: flex-end;
+  }
+  .prev_button,
+  .next_button {
+    > i {
+      color: black;
+      font-size: 2rem;
+    }
+  }
+}

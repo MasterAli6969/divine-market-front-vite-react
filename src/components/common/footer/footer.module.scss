@@ -1,0 +1,39 @@
+.div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #353044;
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+  padding: 5rem 2rem;
+  margin-top: 5rem;
+  .subdiv_logo1 {
+    > h1 {
+      text-transform: uppercase;
+    }
+  }
+  .subdiv_links {
+    > li {
+      margin-bottom: 1rem;
+    }
+  }
+  .subdiv_social {
+    > p {
+      margin-bottom: 1rem;
+    }
+    > ul {
+      display: flex;
+      > li {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+  .subdiv_info {
+    > div {
+      display: flex;
+      align-items: center;
+      > p {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

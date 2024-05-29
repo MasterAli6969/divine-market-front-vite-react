@@ -1,0 +1,30 @@
+.div {
+  background-color: #e8e8e8;
+  color: #353044;
+  border-radius: 10px;
+  padding: 2rem;
+  > h2 {
+    margin-bottom: 1rem;
+  }
+  > p {
+    margin-bottom: 1rem;
+  }
+  .subdiv_ref {
+    display: flex;
+    align-items: center;
+    > div {
+      background-color: white;
+      border-radius: 10px 0 0 10px;
+      padding: 1rem 2.6rem;
+    }
+    > button {
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to right, #4f42ad, #138ce3);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 1rem 2.6rem;
+    }
+  }
+}

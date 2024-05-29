@@ -1,0 +1,14 @@
+.div {
+  margin-bottom: 5rem;
+  > div {
+    margin-bottom: 1rem;
+  }
+  > button {
+    width: 91%;
+    background: linear-gradient(to right, #4f42ad, #138ce3);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 0;
+  }
+}

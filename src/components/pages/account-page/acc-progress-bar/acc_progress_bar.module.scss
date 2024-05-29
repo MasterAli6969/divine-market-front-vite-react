@@ -1,0 +1,51 @@
+.div {
+  .subdiv_caption_amount {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .progress_div {
+    background: linear-gradient(to right, #4f42ad, #138ce3);
+    border-radius: 10px;
+  }
+  .progress_boll {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .step_one,
+    .step_two,
+    .step_three,
+    .step_four {
+      position: absolute;
+      top: -13px;
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 100%;
+      background-color: red;
+    }
+    .step_one {
+      left: 2%;
+      background-color: #4c47b0;
+    }
+    .step_two {
+      left: 30%;
+      background-color: #3c5bbf;
+    }
+    .step_three {
+      left: 66%;
+      background-color: #2675d2;
+    }
+    .step_four {
+      left: 96%;
+      background-color: #1688e0;
+    }
+  }
+  .subdiv_caption_procent {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+}
