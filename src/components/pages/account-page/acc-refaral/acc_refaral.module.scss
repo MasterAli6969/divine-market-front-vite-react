@@ -4,6 +4,7 @@
   border-radius: 10px;
   padding: 2rem;
   > h2 {
+    font-weight: 700;
     margin-bottom: 1rem;
   }
   > p {
@@ -16,6 +17,7 @@
       background-color: white;
       border-radius: 10px 0 0 10px;
       padding: 1rem 2.6rem;
+      font-weight: 700;
     }
     > button {
       display: flex;
@@ -24,7 +26,11 @@
       color: white;
       border: none;
       border-radius: 10px;
+      font-weight: 700;
       padding: 1rem 2.6rem;
+      > img {
+        margin-right: 0.5rem;
+      }
     }
   }
 }

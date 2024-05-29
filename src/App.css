@@ -4,19 +4,52 @@
 }
 
 @font-face {
-  font-family: "tablon";
-  src: url("/src/assets/font/tablon/Tablon-Black.ttf") format("truetype");
+  font-family: "Inter";
+  src: url("/src/assets/font/inter/static/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "inter-Bold";
+  font-family: "Inter";
+  src: url("/src/assets/font/inter/static/Inter-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
   src: url("/src/assets/font/inter/static/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* Подключите остальные веса аналогичным образом */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/src/assets/font/inter/Inter-VariableFont_slnt,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
 }
 
 @font-face {
-  font-family: "inter";
-  src: url("/src/assets/font/inter/static/Inter-Medium.ttf") format("truetype");
+  font-family: "Tablon";
+  src: url("/src/assets/font/tablon/Tablon-Regular.ttf") format("truetype");
+  font-weight: 400;
 }
+
+@font-face {
+  font-family: "Tablon";
+  src: url("/src/assets/font/tablon/Tablon-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Tablon";
+  src: url("/src/assets/font/tablon/Tablon-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/* Подключите остальные веса аналогичным образом */
 
 /* Reset для базовых стилей */
 html,
@@ -135,7 +168,6 @@ textarea:focus {
 
 h1 {
   font-family: "tablon", sans-serif;
-  font-weight: bolder;
 }
 h2,
 h3,
@@ -150,32 +182,26 @@ span {
 
 h1 {
   font-size: 2.5rem;
-  font-weight: bolder;
 }
 
 h2 {
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 1.25rem;
-  font-weight: bold;
 }
 
 h4 {
   font-size: 1rem;
-  font-weight: bold;
 }
 
 h5 {
   font-size: 0.9375rem;
-  font-weight: bold;
 }
 
 p {
   font-size: 0.875rem;
-  font-weight: bold;
 }
 
 /* * {

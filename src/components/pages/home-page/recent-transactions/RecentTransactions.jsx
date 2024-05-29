@@ -37,20 +37,6 @@ function RecentTransactions({ recentTransactionsData }) {
                 })
               )}
             </div>
-            {/* <button
-              className="carousel-control-prev m-0"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev"
-              style={{
-                backgroundColor: "red",
-                padding: "1rem",
-                display: "flex",
-                justifyContent: "flex-start",
-              }}
-            >
-              НАЗАД
-            </button> */}
             <button
               className={classNames(
                 "carousel-control-prev",
