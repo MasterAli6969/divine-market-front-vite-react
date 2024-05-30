@@ -247,16 +247,6 @@ const recentTransactionsDataSlide = [
     discountProcent: "5",
     newPrice: "30 996",
   },
-  {
-    id: "7",
-    lockIcon: СardLockIcon,
-    lockTitle: "Разблокировано",
-    image: TestDataImageCard,
-    name: "Mace of Aeons",
-    oldPrice: "32 545",
-    discountProcent: "5",
-    newPrice: "30 996",
-  },
 ];
 
 export const recentTransactionsData = [

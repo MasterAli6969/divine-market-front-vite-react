@@ -22,8 +22,10 @@
   }
   .subdiv_filters {
     display: flex;
+
     > div {
       margin-left: 1rem;
+
       > select {
         min-width: 100px;
         max-width: 190px;

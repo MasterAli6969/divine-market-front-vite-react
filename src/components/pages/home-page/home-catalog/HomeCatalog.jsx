@@ -9,7 +9,9 @@ function HomeCatalog() {
           <div>
             <CustomCatalogItems catalogData={catalogData} />
           </div>
-          <button>Посмотреть все</button>
+          <a href="/catalog">
+            <button>Посмотреть все</button>
+          </a>
         </div>
       </div>
     </>
